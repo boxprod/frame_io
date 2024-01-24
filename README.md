@@ -72,7 +72,7 @@ Due to the nature of the 'tree' on Frame.io, objects needs to be retrieved in ch
 current_user.accounts.first.teams.first.projects.first.assets.first.children
 ```
 
-Each step is cahced by default. If you need to refresh, you can pass:
+Each step is cached by default. If you need to refresh, you can pass:
 ```ruby
 cache: false
 ```
@@ -91,7 +91,7 @@ Lastly, all objects are findable by ID without the need of the 'chain', like tha
 current_user.frame_io.asset(id: 'some_id')
 ```
 
-It obviously works if an only current_user has access to the file in Frame.io
+It obviously works if and only current_user has access to the file in Frame.io
 
 
 ## Contributing
