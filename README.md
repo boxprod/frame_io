@@ -1,4 +1,4 @@
-# FrameIo
+# Frameio-API
 Very basic (and wip) Frame.io API wrapper
 Only OAuth2 authentification available at the moment.
 
