@@ -31,10 +31,12 @@ This Strategy is meant to be used with [Omniauth](https://github.com/omniauth/om
 
 If using Devise, add this in your Devise.setup in /config/initializers/devise.rb
 
-    config.omniauth   :frameio,
-                      ENV['FRAME_CLIENT_ID'], # Your app client ID (on Frame.io Oauth app mgmt)
-                      ENV['FRAME_CLIENT_SECRET'], # Your app client Secret (on Frame.io Oauth app mgmt)
-                      scope: 'offline' # list of availables scopes to find on Frame.io dev doc
+```ruby
+config.omniauth   :frameio,
+                  ENV['FRAME_CLIENT_ID'], # Your app client ID (on Frame.io Oauth app mgmt)
+                  ENV['FRAME_CLIENT_SECRET'], # Your app client Secret (on Frame.io Oauth app mgmt)
+                  scope: 'offline' # list of availables scopes to find on Frame.io dev doc
+```
 
 Please follow Omniauth & Devise instructions for complete configuration.
 
