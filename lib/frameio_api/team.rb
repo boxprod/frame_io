@@ -1,4 +1,4 @@
-module FrameIo
+module FrameioApi
   class Team < OpenStruct
     def self.all(account:, client:)
       client.get_resource("accounts/#{account.id}/teams?include=user_role", object_class: self)

@@ -1,4 +1,4 @@
-module FrameIo
+module FrameioApi
   class Client
     attr_reader :user, :api_key
 
@@ -26,9 +26,9 @@ module FrameIo
       OAuth2::AccessToken.from_hash(
         oauth.client,
         {
-          access_token: user.send(FrameIo.access_token),
-          refresh_token: user.send(FrameIo.refresh_token),
-          expires_at: user.send(FrameIo.expires_at)
+          access_token: user.send(FrameioApi.access_token),
+          refresh_token: user.send(FrameioApi.refresh_token),
+          expires_at: user.send(FrameioApi.expires_at)
         }
       )
     end

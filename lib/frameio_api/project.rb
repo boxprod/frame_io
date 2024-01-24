@@ -1,4 +1,4 @@
-module FrameIo
+module FrameioApi
   class Project < OpenStruct
     def self.all(team:, client:)
       client.get_resource("teams/#{team.id}/projects", object_class: self)

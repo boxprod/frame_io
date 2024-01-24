@@ -1,8 +1,8 @@
-require_relative "lib/frame_io/version"
+require_relative "lib/frameio_api/version"
 
 Gem::Specification.new do |spec|
   spec.name        = "frameio-api"
-  spec.version     = FrameIo::VERSION
+  spec.version     = FrameioApi::VERSION
   spec.authors     = ["Victor Holl"]
   spec.email       = ["v_h@me.com"]
   spec.homepage    = "https://github.com/boxprod/frameio-api"

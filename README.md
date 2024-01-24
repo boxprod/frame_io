@@ -61,7 +61,7 @@ end
 That's all! You now have access to a frame.io client:
 
 ```ruby
-current_user.frame_io #=> FrameIo::Client
+current_user.frame_io #=> FrameioApi::Client
 
 current_user.frame_io.accounts #=> All accounts for user frame.io account
 ```

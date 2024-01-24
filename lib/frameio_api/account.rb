@@ -1,4 +1,4 @@
-module FrameIo
+module FrameioApi
   class Account < OpenStruct
     def self.all(client:)
       client.get_resource('accounts', object_class: self)

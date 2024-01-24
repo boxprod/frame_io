@@ -1,17 +1,17 @@
-require "frame_io/version"
-require "frame_io/railtie"
-require 'frame_io/account'
-require 'frame_io/active_record_extension'
-require 'frame_io/asset'
-require 'frame_io/client'
-require 'frame_io/collaborator'
-require 'frame_io/custom_action'
-require 'frame_io/project'
-require 'frame_io/team'
-require 'frame_io/user'
+require "frameio_api/version"
+require "frameio_api/railtie"
+require 'frameio_api/account'
+require 'frameio_api/active_record_extension'
+require 'frameio_api/asset'
+require 'frameio_api/client'
+require 'frameio_api/collaborator'
+require 'frameio_api/custom_action'
+require 'frameio_api/project'
+require 'frameio_api/team'
+require 'frameio_api/user'
 require 'omniauth-frameio'
 
-module FrameIo
+module FrameioApi
   TokenError = Class.new(StandardError)
 
   class << self

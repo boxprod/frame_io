@@ -1,7 +1,7 @@
 require "test_helper"
 
-class FrameIoTest < ActiveSupport::TestCase
+class FrameioApiTest < ActiveSupport::TestCase
   test "it has a version number" do
-    assert FrameIo::VERSION
+    assert FrameioApi::VERSION
   end
 end

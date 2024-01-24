@@ -1,4 +1,4 @@
-module FrameIo
+module FrameioApi
   class Asset < OpenStruct
     def self.children(asset:, client:)
       client.get_resource("assets/#{asset.id}/children", object_class: self)

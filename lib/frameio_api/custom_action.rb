@@ -1,4 +1,4 @@
-module FrameIo
+module FrameioApi
   class CustomAction < OpenStruct
     def self.all(team:, client:)
       client.get_resource("teams/#{team.id}/actions", object_class: self)
