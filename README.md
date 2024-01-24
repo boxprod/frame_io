@@ -8,7 +8,7 @@ Only OAuth2 authentification available at the moment.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "frame_io"
+gem "frameio-api"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install frame_io
+$ gem install frameio-api
 ```
 
 
