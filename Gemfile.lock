@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    frame_io (0.1.0)
+    frameio-api (0.1.0)
       omniauth-frameio
       rails (>= 7.1.2)
 
@@ -220,7 +220,7 @@ PLATFORMS
   arm64-darwin
 
 DEPENDENCIES
-  frame_io!
+  frameio-api!
   puma
   sqlite3
 
