@@ -25,7 +25,7 @@ $ gem install frame_io
 ## Usage
 This gem uses and bundles [omniauth-frameio](https://github.com/boxprod/omniauth-frameio)
 
-# Omniauth configuration:
+### Omniauth configuration:
 
 This Strategy is meant to be used with [Omniauth](https://github.com/omniauth/omniauth) and has been tested and used with [Devise](https://github.com/heartcombo/devise#omniauth)
 
@@ -40,7 +40,7 @@ config.omniauth   :frameio,
 
 Please follow Omniauth & Devise instructions for complete configuration.
 
-# Wrapper configuration:
+### Wrapper configuration:
 
 ```ruby
 class User < ApplicationRecord
